@@ -1,5 +1,8 @@
 # Live News Sentiment Analyzer
 
+🔗 **Live Demo:**  https://news-sentiment-analyzer1.streamlit.app
+
+
 An end-to-end NLP application that takes a news article URL, extracts the article text, and classifies its sentiment with a pretrained DistilBERT model. Articles longer than DistilBERT's 512-token limit are split into overlapping chunks, scored individually, and aggregated into one article-level prediction. An offline evaluation pipeline benchmarks the pretrained model on labeled data and compares it against a classical TF-IDF + Logistic Regression baseline.
 
 The transformer is used **as a pretrained inference model only** — no training or fine-tuning was performed on it.
