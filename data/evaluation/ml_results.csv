@@ -1,0 +1,395 @@
+row_id,text,true_label,predicted_label,positive_probability,negative_probability,correct
+870,"Jawad Williams scored 23 points in an impressive debut for Jerusalem , with Jason Rich adding 18 and Yuval Naimi chipping in with 16 points for Hapoel , which visits the yellow-and-blue next week .",POSITIVE,POSITIVE,0.7668,0.2332,True
+1349,"National Conciliator Juhani Salonius , who met both parties on Wednesday , said they were too far apart in their views for him to propose mediation .",NEGATIVE,POSITIVE,0.613,0.387,False
+1854,The company confirmed its estimate for lower revenue for the whole 2009 than the year-ago EUR93 .9 m as given in the interim report on 5 August 2009 .,NEGATIVE,NEGATIVE,0.2618,0.7382,True
+453,The bank sees a potential for Getinge share to rise .,POSITIVE,POSITIVE,0.6528,0.3472,True
+1866,Export declined by 6 percent to 16.4 million liters .,NEGATIVE,POSITIVE,0.6424,0.3576,False
+1690,The company said it estimates to make a slight profit thanks to cost-cutting measures .,POSITIVE,POSITIVE,0.6375,0.3625,True
+769,Cargotec Germany GmbH has been awarded a contract by Stadtverwaltung Mainz for chassis bodies under Open procedure .,POSITIVE,POSITIVE,0.7464,0.2536,True
+39,"Net income from life insurance rose to EUR 16.5 mn from EUR 14.0 mn , and net income from non-life insurance to EUR 22.6 mn from EUR 15.2 mn in 2009 .",POSITIVE,POSITIVE,0.7069,0.2931,True
+1328,"Due to market conditions , the company will also temporarily lay off about 3,200 people at different sites .",NEGATIVE,NEGATIVE,0.2353,0.7647,True
+1514,"According to Swedish authorities , traces of the very toxic osmium tetroxide have been found on the coast of Per+ñmeri , the Northernmost part of the Gulf of Bothnia .",NEGATIVE,POSITIVE,0.54,0.46,False
+709,"Sales improved to SEK 1,553 mn , compared with SEK 1,408 mn .",POSITIVE,POSITIVE,0.6722,0.3278,True
+48,"The company said that paper demand increased in all of its main markets , including of publication papers , and that it increased average paper prices by 4 percent compared with last year .",POSITIVE,POSITIVE,0.7288,0.2712,True
+1692,"The previously concluded adaptation measures concerning the other personnel are adequate for the time being , Raute said .",POSITIVE,POSITIVE,0.5215,0.4785,True
+1583,"According to the Latvian business register , Uponor Latvia closed in red with LVL 99,000 EUR 139,538.17 USD 194,556.48 on turnover of LVL 2.346 mn for 2009 .",NEGATIVE,POSITIVE,0.5466,0.4534,False
+1408,Return on investment ROI was 4.1 % compared to 43.8 % in the first half of 2008 .,NEGATIVE,NEGATIVE,0.3072,0.6928,True
+641,Finnish forest machinery manufacturer Ponsse has agreed with Volvo on the start of cooperation in Latin America .,POSITIVE,POSITIVE,0.6381,0.3619,True
+1050,`` We are pleased to welcome Tapeks Noma into Cramo group .,POSITIVE,POSITIVE,0.7507,0.2493,True
+1950,"Seven-month sales of Ragutis , which is controlled by the Finnish brewery Olvi , declined by 11.2 percent , to 15.41 million liters , and the company held 9.89 percent of the market .",NEGATIVE,POSITIVE,0.5703,0.4297,False
+1623,"Operating profit , excluding non-recurring items , totalled EUR 1.0 mn , down from EUR 1.6 mn .",NEGATIVE,NEGATIVE,0.1351,0.8649,True
+1292,"Via the takeover , Panostaja further expands its business area specialising in digital printing , which since previously consists of the subsidiaries Kopijyva Oy and Sokonet Oy .",POSITIVE,POSITIVE,0.6893,0.3107,True
+1510,Possible personnel reductions concern approximately 104 people .,NEGATIVE,NEGATIVE,0.365,0.635,True
+1743,"Comparable operating profit for the quarter decreased from EUR510m while sales increased from EUR860m , as compared to the third quarter 2007 .",NEGATIVE,NEGATIVE,0.221,0.779,True
+1333,"HELSINKI , Finland , Sept. 18 , 2009 ( GLOBE NEWSWIRE ) -- Ixonos Plc expands the company 's smartphone R&D services and establishes a new next-generation smartphone design unit in connection with Ixonos ' site in Jyvaeskylae .",POSITIVE,POSITIVE,0.7194,0.2806,True
+986,"Outotec said it won new orders worth 492.9 mln eur during the quarter , compared with 240.4 mln eur a year earlier .",POSITIVE,POSITIVE,0.6991,0.3009,True
+1136,Finnish Vacon has signed significant deals with Norwegian Scandinavian Electric Systems ( SES ) on the supply of AC drives .,POSITIVE,POSITIVE,0.7376,0.2624,True
+1906,The operating margin of Aker Yards Cruise & Ferries division went down from 8.3 % to 6.4 % in the first quarter of 2007 .,NEGATIVE,NEGATIVE,0.2549,0.7451,True
+714,Sports equipment sales also progressed well owing to the prolonged winter season .,POSITIVE,POSITIVE,0.7142,0.2858,True
+1810,Earnings per share ( EPS ) in 2005 decreased to EUR1 .87 from EUR1 .89 in 2003 .,NEGATIVE,NEGATIVE,0.2368,0.7632,True
+1233,Through the acquisition Solteq will expand its solutions offering by Microsoft 's Dynamics business software products .,POSITIVE,POSITIVE,0.816,0.184,True
+1291,"Via the agreement , Ramirent will expand the range of equipment and services it delivers to Destia , Ramirent Finland 's managing director Kari Aulasmaa , said .",POSITIVE,POSITIVE,0.8205,0.1795,True
+776,fi is developing cooperation in keyword advertising with Microsoft .,POSITIVE,POSITIVE,0.758,0.242,True
+834,TeliaSonera is the leading telecommunications company in the Nordic and Baltic regions .,POSITIVE,POSITIVE,0.7203,0.2797,True
+570,RISING costs have forced packaging producer Huhtamaki to axe 90 jobs at its Hampshire manufacturing plant .,NEGATIVE,POSITIVE,0.5161,0.4839,False
+1928,The net sales of the whole fiscal year 2008 will be lower than in 2007 and operating profit is estimated to be negative .,NEGATIVE,NEGATIVE,0.2984,0.7016,True
+398,One of the challenges in the oil production in the North Sea is scale formation that can plug pipelines and halt production .,NEGATIVE,POSITIVE,0.5409,0.4591,False
+1415,"Finnish shipping company Finnlines ' pretax loss totalled EUR 6.5 mn in the third quarter of 2009 , compared to a profit of EUR 0.3 mn in the third quarter of 2008 .",NEGATIVE,NEGATIVE,0.1701,0.8299,True
+1,With the new production plant the company would increase its capacity to meet the expected increase in demand and would improve the use of raw materials and therefore increase the production profitability .,POSITIVE,POSITIVE,0.7929,0.2071,True
+1255,"Finnish dental care group Oral Hammaslaakarit Oyj posted a total net profit of 849,000 euro $ 1.1 mln in the first nine months of 2006 versus a net loss of 331,000 euro $ 421,000 in the same period of 2005 .",POSITIVE,NEGATIVE,0.4265,0.5735,False
+190,"In the fourth quarter of 2009 , Orion 's net profit went up by 33.8 % year-on-year to EUR33m .",POSITIVE,POSITIVE,0.56,0.44,True
+1090,"The liquidity providing was interrupted on May 11 , 2007 when Aspocomp Group Oyj 's shares traded below 0.50 cent ( Aspocomp 's stock exchange release 11.5.2007 ) .",NEGATIVE,NEGATIVE,0.3516,0.6484,True
+1860,The net sales decreased to EUR 49.8 million from EUR 59.9 million .,NEGATIVE,NEGATIVE,0.258,0.742,True
+1477,"The operating loss amounted to EUR 0.8 mn , compared to a profit of EUR 3.9 mn a year earlier .",NEGATIVE,NEGATIVE,0.1477,0.8523,True
+1020,"`` We are delighted to announce our support for Intel based handheld platforms , the capabilities of which have made our development easier and faster .",POSITIVE,POSITIVE,0.7671,0.2329,True
+926,"The service is intended to allow the people of thirteen Mediterranean countries to reach the Baltic more rapidly , with a single carrier .",POSITIVE,POSITIVE,0.7262,0.2738,True
+1717,"The airline estimated that the cancellation of its flights due to the closure of European airspace , and the process of recommencing traffic , have caused a the company a loss of EUR20m , including the costs of stranded passengers ' accommodation .",NEGATIVE,NEGATIVE,0.3593,0.6407,True
+1024,"Efore 's presence here also opens up new and interesting development opportunities for our students , '' the dean of the Faculty of Electronics , Communications and Automation at TKK said .",POSITIVE,POSITIVE,0.8099,0.1901,True
+146,"Both operating profit and net sales for the three-month period increased , respectively from EUR15 .1 m and EUR131 .5 m , as compared to the corresponding period in 2005 .",POSITIVE,POSITIVE,0.7753,0.2247,True
+894,Through this transaction we are able to participate in developing the industry .,POSITIVE,POSITIVE,0.7866,0.2134,True
+1746,"Operating loss totalled EUR 0.3 mn , down from a profit of EUR 5.1 mn in the first half of 2009 .",NEGATIVE,NEGATIVE,0.0406,0.9594,True
+952,"The seminar introduced modern , clean technologies and products , financial tools and sponsorship programs for energy and environment projects as well as the potential to develop clean energy in Vietnam .",POSITIVE,POSITIVE,0.6696,0.3304,True
+1231,These measures are expected to produce annual cost savings of EUR 1.5 million starting in 2007 .,POSITIVE,POSITIVE,0.6682,0.3318,True
+1175,"Juha Jordan , chief engineer at Glaston , said one of the reasons for choosing Vacon as a global AC drives supplier is that it has service and support centres in the same countries where Glaston operates .",POSITIVE,POSITIVE,0.6308,0.3692,True
+376,"The agreement will provide The Switch with double the converter capacity , whilst opening up further manufacturing locations in China .",POSITIVE,POSITIVE,0.8623,0.1377,True
+58,Sponda Plc Stock Exchange Release 5 December 2006 at 15.45 EUR 1.5 BILLION SYNDICATED CREDIT FACILITY FOR SPONDA Sponda has signed an agreement for a one-year syndicated credit facility for a total of EUR 1.5 billion .,POSITIVE,POSITIVE,0.7012,0.2988,True
+789,Outokumpu 's chief executive Juha Rantanen expressed his confidence in China market .,POSITIVE,POSITIVE,0.5901,0.4099,True
+170,Finnish messaging solutions developer Tecnomen Corporation ( OMX Helsinki : TEM1V ) said on Thursday ( 11 December ) that it has received an expansion order for its Convergent Charging solution in Latin America .,POSITIVE,POSITIVE,0.7127,0.2873,True
+662,Cision says the sale will return its U.K. operation to profitability .,POSITIVE,POSITIVE,0.7562,0.2438,True
+1830,"Net profit in the three months through March 31 fell to (  x20ac ) 103 million ( US$ 165 million ) from (  x20ac ) 131 million a year earlier , the Finnish company said .",NEGATIVE,NEGATIVE,0.2961,0.7039,True
+469,"The metal has gained 41 percent this year as demand from China , the world 's largest user , increased .",POSITIVE,POSITIVE,0.7554,0.2446,True
+10,"A purchase agreement for 7,200 tons of gasoline with delivery at the Hamina terminal , Finland , was signed with Neste Oil OYj at the average Platts index for this September plus eight US dollars per month .",POSITIVE,POSITIVE,0.5923,0.4077,True
+941,"Furthermore , sales of new passenger cars and light commercial vehicles in the country declined by 5.4 % year-on-year last month .",NEGATIVE,POSITIVE,0.5361,0.4639,False
+51,"Seppala 's revenue increased by 0.2 % to EUR10 .1 m. In Finland , revenue went down by 2.4 % to EUR6 .8 m , while sales abroad rose by 6.2 % to EUR3 .3 m. Sales increased in all the Baltic countries as well as in Russia and Ukraine .",POSITIVE,POSITIVE,0.5645,0.4355,True
+346,"The Finnish supplier of BSS-OSS and VAS for telecom operators , Tecnotree , has received expansion orders worth a total US$ 7.3 mn for its convergent charging and next generation messaging solutions in Latin America , the company announced without specifying which operators had placed the orders .",POSITIVE,POSITIVE,0.724,0.276,True
+1088,"`` Uncommonly weak snow conditions in nearly every market have affected our first quarter result , '' Chief Executive Roger Talermo said .",NEGATIVE,NEGATIVE,0.3952,0.6048,True
+1550,The measures result from weak demand in the shipbuilding industry .,NEGATIVE,NEGATIVE,0.4521,0.5479,True
+1666,Efore 's results for the last quarter showed an even faster improvement as the company managed to better source its components .,POSITIVE,POSITIVE,0.6598,0.3402,True
+577,"Cencorp estimates that its net sales in the last quarter will be as earlier stated , EUR4 .3 m to EUR5 .0 m , and operating profit (EBIT)is estimated to be positive .",POSITIVE,POSITIVE,0.5862,0.4138,True
+364,A tinyurl link takes users to a scamming site promising that users can earn thousands of dollars by becoming a Google ( NASDAQ : GOOG ) Cash advertiser .,NEGATIVE,POSITIVE,0.6072,0.3928,False
+777,"Finnish construction group Lemminkainen Oyj HEL : LEM1S said today it has won a contract to provide technical services for the Nevsky Centre shopping mall to be opened in November in St Petersburg , Russia .",POSITIVE,POSITIVE,0.7489,0.2511,True
+1475,Scanfil has also issued a profit warning .,NEGATIVE,NEGATIVE,0.2723,0.7277,True
+1253,"Finnish broadband data communication systems provider Teleste Oyj HEL : TLT1V said yesterday it returned to a net profit of EUR 2.7 million USD 3.8 m for the first nine months of 2010 versus a net loss of EUR 579,000 for the same period of 2009 .",POSITIVE,POSITIVE,0.5388,0.4612,True
+496,"In the first nine months of 2010 , the company 's net loss narrowed to EUR415 ,000 from EUR7 .4 m for the corresponding period of 2009 .",POSITIVE,POSITIVE,0.7202,0.2798,True
+1085,The completion of the recycling plant is an important link in the chain of creating a waste management system in the Dubna region that meets the EU standards .,POSITIVE,POSITIVE,0.6545,0.3455,True
+457,"The six breweries recorded a 5.2 percent growth in domestic beer sales last year to 270.21 million liters , from 256.88 million liters sold in 2005 .",POSITIVE,POSITIVE,0.6932,0.3068,True
+1105,"Elcoteq 's stock of orders has stabilised in the past weeks , Mr Krippl said .",POSITIVE,POSITIVE,0.5191,0.4809,True
+214,Operating profit rose to 22.1 mln eur from 19.9 mln .,POSITIVE,POSITIVE,0.839,0.161,True
+388,"As the largest elevator market in the world , Chinese output of elevators continued to rise to 262,000 units in 2009 , up about 5 % yr-on-yr .",POSITIVE,POSITIVE,0.6839,0.3161,True
+518,23 April 2010 - Finnish construction and engineering company Outotec Oyj HEL : OTE1V said today it slipped to a net loss of EUR7 .3 m in the first quarter of 2010 from a net profit of EUR12 .5 m in the corresponding period last year .,NEGATIVE,NEGATIVE,0.467,0.533,True
+565,"Okmetic 's products are based on high-tech expertise that generates added value for customers , innovative product development and an extremely efficient production process .",POSITIVE,POSITIVE,0.6737,0.3263,True
+1366,"The personnel reduction will be carried out in Anjalankoski , Hollola , Jyvaskyla , Jarvenpaa , Karhula , Turku and Valkeakoski units .",NEGATIVE,NEGATIVE,0.3578,0.6422,True
+924,"The most loyal customers were found in the Bank of +àland , with an index of 8.0 .",POSITIVE,POSITIVE,0.6138,0.3862,True
+831,"Pearl Plaza LLC , the joint venture of SRV and Shanghai Industrial Investment Holdings Co Ltd , has concluded the investment decision on construction of the first phase of the shopping center in Saint Petersburg , Russia .",POSITIVE,POSITIVE,0.6684,0.3316,True
+1155,"Finnish technology group Aspocomp Group Oyj ( OMX Helsinki : ACG1V ) issued its third quarter report on Thursday ( 13 November ) , posting an operating profit of EUR0 .4 m , as compared to a loss of EUR0 .5 m in the third quarter of 2007 .",POSITIVE,NEGATIVE,0.3237,0.6763,False
+1560,"`` Neste Oil has responded to the challenge posed by the European Union 's target of biofuels accounting for 5.8 % of traffic fuel usage in the EU by 2010 by developing its NExBTL technology for producing diesel fuel from renewables , '' the federation said .",POSITIVE,POSITIVE,0.6263,0.3737,True
+443,"`` Our extensive co-operation will also bolster SysOpen Digia 's position in the domestic operator market , '' Kallioranta adds .",POSITIVE,POSITIVE,0.7768,0.2232,True
+1447,Pretax loss totalled EUR 162.3 mn compared to a profit of EUR 253.5 mn in 2007 .,NEGATIVE,NEGATIVE,0.2216,0.7784,True
+615,"Ragutis , which is based in Lithuania 's second-largest city Kaunas , boosted its sales last year 22.3 per cent to 36.4 million liters .",POSITIVE,POSITIVE,0.5603,0.4397,True
+1625,"Operating profit excluding non-recurring items amounted to EUR 40.6 mn , down from EUR 57.3 mn year-on-year .",NEGATIVE,NEGATIVE,0.1578,0.8422,True
+1961,"Operating result for the 12-month period decreased from the profit of EUR0 .4 m while turnover decreased from EUR5 .6 m , as compared to 2004 .",NEGATIVE,NEGATIVE,0.1309,0.8691,True
+889,The effect of the savings will be noticeable as of the beginning of 2010 .,POSITIVE,POSITIVE,0.6397,0.3603,True
+1552,"The prosecutor is also demanding Outokumpu pay a fine of EUR 800,000 at most .",NEGATIVE,POSITIVE,0.5781,0.4219,False
+1378,Finnish sports equipment company Amer Sports said it has decided to lay off 370 workers from its Salomon division in France .,NEGATIVE,POSITIVE,0.5017,0.4983,False
+1769,The measures result from decreased demand in technical design and product information .,NEGATIVE,NEGATIVE,0.4559,0.5441,True
+1367,The reduction notice applied to 17 people .,NEGATIVE,NEGATIVE,0.4133,0.5867,True
+1864,"Commission income decreased to EUR 3.8 mn , compared to EUR 4.6 mn in the third quarter of 2007 .",NEGATIVE,NEGATIVE,0.165,0.835,True
+1523,ArcelorMittal Chief Executive Officer Lakshmi Mittal has already cut output at some furnaces .,NEGATIVE,NEGATIVE,0.4059,0.5941,True
+1684,"`` After a long , unprofitable period the Food Division posted a profitable result , which speaks of a healthier cost structure and a new approach in business operations , '' Rihko said .",POSITIVE,POSITIVE,0.6656,0.3344,True
+965,"The GeoSolutions technology will leverage Benefon 's GPS solutions by providing Location Based Search Technology , a Communities Platform , location relevant multimedia content and a new and powerful commercial model .",POSITIVE,POSITIVE,0.7773,0.2227,True
+1729,"`` Beyond the improved voice capabilities , customers now have a streamlined way to comply with recalls and other traceability requirements , providing them with a competitive advantage .",POSITIVE,POSITIVE,0.8,0.2,True
+1602,"During the strike , Finnair estimates to incur a net loss of between EUR2m and EUR2 .5 m per day .",NEGATIVE,NEGATIVE,0.4441,0.5559,True
+1331,"Glaston , headquartered in Tampere , Finland , is a growing , international glass technology company .",POSITIVE,POSITIVE,0.6249,0.3751,True
+1237,"Via the move , the company aims annual savings of some EUR3m , the main part of which are expected to be realized this year .",POSITIVE,POSITIVE,0.7029,0.2971,True
+1827,"( ADPnews ) - Oct 21 , 2009 - Finland-based IT consultancy Tieto Oyj ( HEL : TIE1V ) said today its net profit plunged to EUR 29.4 million ( USD 43.9 m ) for the first nine months of 2009 from EUR 58.7 million for the same period o",NEGATIVE,NEGATIVE,0.4725,0.5275,True
+947,"TeliaSonera 's underlying results however included 457 mln skr in positive one-offs , hence the adjusted underlying EBITDA actually amounts to 7.309 bln skr , clearly below expectations , analysts said .",NEGATIVE,POSITIVE,0.5139,0.4861,False
+1681,At the same time I am delighted by the fact that we were able to accomplish the organization with our own team members .,POSITIVE,POSITIVE,0.6848,0.3152,True
+34,"A Helsinki : ELIiV today reported EPS of EUR1 .13 for 2009 , an increase over EPS of EUR1 .12 in 2008 .",POSITIVE,POSITIVE,0.6097,0.3903,True
+693,"( ADP News ) - Oct 1 , 2008 - Finnish consulting and engineering company Poyry Oyj ( OMX : POY1V ) said today it was awarded a EUR 5.2 million ( USD 7.4 m ) extension to their existing consultancy engineering contract with Venezuel",POSITIVE,POSITIVE,0.6967,0.3033,True
+1822,"( ADP News ) - Feb 11 , 2009 - Finnish wood products technology supplier Raute Oyj ( HEL : RUTAV ) said today its net profit decreased to EUR 4.7 million ( USD 6.1 m ) for 2008 from EUR 6.6 million for 2007 .",NEGATIVE,NEGATIVE,0.2443,0.7557,True
+822,"Israeli cable network operator HOT Telecom has chosen Teleste , an international technology group , as its exclusive provider of FTTx equipment in Israel , according to Teleste today .",POSITIVE,POSITIVE,0.7518,0.2482,True
+53,Shares of Nokia Corp. rose Thursday after the cell phone maker said its third-quarter earnings almost doubled and its share of the global handset market increased .,POSITIVE,POSITIVE,0.7156,0.2844,True
+1786,Finnish Bank of +àland reports its operating profit fell to EUR 4.9 mn in the third quarter of 2007 from EUR 5.6 mn in the third quarter of 2006 .,NEGATIVE,NEGATIVE,0.2335,0.7665,True
+1352,"On Wednesday he announced that the government would propose granting a licence for two reactors , one to be built by Fennovoima , and the other by TVO .",POSITIVE,NEGATIVE,0.4817,0.5183,False
+75,"Finnish high technology provider Vaahto Group reports net sales of EUR 41.8 mn in the accounting period September 2007 - February 2008 , an increase of 11.2 % from a year earlier .",POSITIVE,NEGATIVE,0.4846,0.5154,False
+1653,Ramirent made 18 million kroons EUR 1.15 mln loss last year ; the year before the company was 7.3 million kroons in the black .,NEGATIVE,NEGATIVE,0.4567,0.5433,True
+90,Net sales increased to EUR655m in April to June 2010 from EUR438m a year earlier .,POSITIVE,POSITIVE,0.7181,0.2819,True
+1343,"( ADP News ) - Nov 28 , 2008 - Finnish power-supply solutions provider Efore Oyj ( OMX : EFO1V ) announced today the launch of OPUS DC , the latest power system in its OPUS product line .",POSITIVE,POSITIVE,0.6656,0.3344,True
+1675,"The respondents praised Finnair 's reliability , Finnishness , and understanding of its target group .",POSITIVE,POSITIVE,0.6288,0.3712,True
+1757,HELSINKI ( AFX ) - KCI Konecranes said that Franklin Resources Inc 's share of voting rights in the Finnish cranes company fell last week to 4.65 pct from more than 9 pct in October 2005 .,NEGATIVE,NEGATIVE,0.3984,0.6016,True
+800,The aim is to achieve EUR 2.5 mn yearly savings .,POSITIVE,POSITIVE,0.7149,0.2851,True
+945,"The company booked April-June new orders worth 949 mln eur , compared with 786 mln eur in the same period a year ago .",POSITIVE,POSITIVE,0.7015,0.2985,True
+579,Repeats sees 2008 EBITA above 18 pct of sales .,POSITIVE,NEGATIVE,0.4729,0.5271,False
+134,"At the end of March 2007 , the group 's order book was at EUR 39.6 mn , up 42 % from the corresponding period in 2006 .",POSITIVE,POSITIVE,0.5934,0.4066,True
+971,"`` I 'm pleased to receive the Nomination Committee 's request and confidence , '' says Jon Risfelt .",POSITIVE,POSITIVE,0.7725,0.2275,True
+1162,"In Middle East & North Africa , Tecnotree has grown considerably in the recent years .",POSITIVE,POSITIVE,0.5668,0.4332,True
+583,"`` In terms of profitability and earnings 2007 was the best year in our history , '' Chief Executive Veli-Matti Mattila said .",POSITIVE,POSITIVE,0.5494,0.4506,True
+41,"Sales for both the Department Store Division and Hobby Hall increased by 7 % , while sales for the clothing store subsidiary Seppala decreased by 4 % .",POSITIVE,POSITIVE,0.5497,0.4503,True
+998,"`` Lining stone sales were also good in the early autumn , and order books are strong to the end of the year .",POSITIVE,POSITIVE,0.666,0.334,True
+256,The agreement expands Tekla Structures ' scope of use to bridge design .,POSITIVE,POSITIVE,0.7269,0.2731,True
+1562,30 November 2009 - Finnish office furniture maker Martela Oyj HEL : MARAS said today that it will make redundant three people and other nine will be laid off permanently from the company 's office staff and factory workers .,NEGATIVE,NEGATIVE,0.3053,0.6947,True
+572,"At this growth rate , paying off the national debt will be extremely painful .",NEGATIVE,POSITIVE,0.5706,0.4294,False
+8,TeliaSonera TLSN said the offer is in line with its strategy to increase its ownership in core business holdings and would strengthen Eesti Telekom 's offering to its customers .,POSITIVE,POSITIVE,0.8893,0.1107,True
+1072,This is a much better process than using virgin paper as it requires less transportation of wood pulp from places like Finland and Canada .,POSITIVE,POSITIVE,0.5188,0.4812,True
+1665,"efficiency improvement measures 20 January 2010 - Finnish stationery and gift retailer Tiimari HEL : TII1V said today that it will continue to improve its operational efficiency , by focusing on its profitable core operations .",POSITIVE,POSITIVE,0.7512,0.2488,True
+249,"Sales in Latin America increased by 42 % to EUR 432mn , and a total of 8.7 mn mobile devices were sold in the area , representing an increase of 32 % from the corresponding period in 2009 .",POSITIVE,POSITIVE,0.7484,0.2516,True
+1421,Earnings per share ( EPS ) amounted to a loss of EUR0 .05 .,NEGATIVE,NEGATIVE,0.3378,0.6622,True
+539,"Finnish power supply solutions and systems provider Efore Oyj said its net loss widened to 3.2 mln euro $ 4.2 mln for the first quarter of fiscal 2006-2007 ending October 31 , 2007 from 900,000 euro $ 1.2 mln for the same period of fiscal 2005-06 .",NEGATIVE,POSITIVE,0.5439,0.4561,False
+1618,Net sales have been eaten by the weak US dollar .,NEGATIVE,NEGATIVE,0.402,0.598,True
+841,"`` Installation of the automatic varnishing line is an important part of the company 's strategy in the region of central and eastern Europe , '' said Jozef Misurec , the director of Ruukki Slovakia .",POSITIVE,POSITIVE,0.8053,0.1947,True
+513,UPM-Kymmene is working closely with its shipping agents to reduce fuel consumption and greenhouse gas emissions .,POSITIVE,POSITIVE,0.7259,0.2741,True
+796,Synergy benefits will start to materialise in the second quarter .,POSITIVE,NEGATIVE,0.498,0.502,False
+80,Circulation revenue has increased by 5 % in Finland and 4 % in Sweden in 2008 .,POSITIVE,POSITIVE,0.5662,0.4338,True
+95,Operating profit margin increased from 11.2 % to 11.7 % .,POSITIVE,NEGATIVE,0.4908,0.5092,False
+865,Grapevine city officials in September approved $ 35 million in tax rebates and grants for the expansion .,POSITIVE,POSITIVE,0.5864,0.4136,True
+482,The new technology improves the glass quality and consistency while increasing throughput .,POSITIVE,POSITIVE,0.7756,0.2244,True
+801,The borrower was happy to do the roadshow and this paid off as the hit ratio from it was high .,POSITIVE,NEGATIVE,0.473,0.527,False
+1025,One of my colleagues summed up the E7 quite aptly when he remarked : `` Fantastic hardware .,POSITIVE,POSITIVE,0.6553,0.3447,True
+173,Finnish office supplies and computer accessories dealer Beltton-Group Plc said its net profit rose to 1.3 mln euro ( $ 1.7 mln ) in 2006 from 1.13 mln euro ( $ 1.5 mln ) in 2005 .,POSITIVE,POSITIVE,0.7509,0.2491,True
+1261,It therefore seems that Finnish shipping company Viking Line will get the subsidy it needs to order its new LNG-fuelled vessel .,POSITIVE,POSITIVE,0.7705,0.2295,True
+205,"Neste Oil Corp. has signed long-term procurement contracts with Honkajoki Oy and Findest Protein Oy , both owned by Finnish food manufacturers , for the supply of animal fat for biodiesel production at Neste 's 200,000 b-cd Porvoo , Finland , refinery .",POSITIVE,POSITIVE,0.7034,0.2966,True
+1371,A profit is still on target .,POSITIVE,POSITIVE,0.5237,0.4763,True
+808,"The financial impact is estimated to be some 1.5 MEUR annual improvement in the division 's result , starting from fiscal year 2007 .",POSITIVE,NEGATIVE,0.4868,0.5132,False
+69,"`` The change will optimize the operational efficiencies of our growing business , '' said Julia Prohaska , director of marketing communications for Fiskars .",POSITIVE,POSITIVE,0.7528,0.2472,True
+1892,"Operating profit totalled EUR 1.22 mn , down from EUR 3.56 mn in the first quarter of 2008 .",NEGATIVE,NEGATIVE,0.1668,0.8332,True
+1129,SCANIA Morgan Stanley lifted the share target on Swedish heavy-duty truck and bus maker Scania AB to 330 crowns ( $ 42.4 - 35.2 euro ) from 310 crowns ( $ 39.8 - 33.1 euro ) .,POSITIVE,POSITIVE,0.5165,0.4835,True
+690,"Known as Post Bank , the concept would see Fidelity Bank rolling out 75 offices in Ghana Post premises , to provide financial services to the people .",POSITIVE,POSITIVE,0.5441,0.4559,True
+126,South African Sappi will become the largest foreign forest industry company operating in Finland as a result of the acquisition Finnish M-real Corporation 's Graphic Papers Business unit .,POSITIVE,NEGATIVE,0.4701,0.5299,False
+1815,Finnish glass technology company Glaston Oyj Abp net profit decreased to 2.6 mln euro ( $ 3.8 mln ) for the first nine months of 2007 from 7.8 mln euro ( $ 11.4 mln ) for the same period of 2006 .,NEGATIVE,NEGATIVE,0.3203,0.6797,True
+1146,Cramo Group 's financial targets for 2010-2013 are sales growth higher than 10 percent per year ; return on equity above 15 percent .,POSITIVE,POSITIVE,0.72,0.28,True
+735,"The move is aimed at boosting sales , cost-efficiency and market share in Finland .",POSITIVE,POSITIVE,0.5927,0.4073,True
+798,"Thanks to the multiplying effect of wagon performance , transport will be much more efficient , '' says development manager Juha Malkia from VR Cargo .",POSITIVE,POSITIVE,0.6704,0.3296,True
+787,Operating profit improved by 44.0 % to ER 4.7 mn from EUR 3.3 mn in 2004 .,POSITIVE,POSITIVE,0.6535,0.3465,True
+1342,KESKO FOOD LTD PRESS RELEASE 04.01.2006 AT 13.00 Kesko Food Ltd is launching a major TV campaign to recruit as many as one hundred new K-food retailers .,POSITIVE,POSITIVE,0.675,0.325,True
+500,Finnish fibers and plastic products maker Suominen Corporation said its net loss narrowed to 1.6 mln euro $ 2.0 mln in the first nine months of 2006 from 2.16 mln euro $ 2.7 mln in the same period of 2005 .,POSITIVE,POSITIVE,0.6549,0.3451,True
+1168,It also turned in earnings per share ( EPS ) of EUR 0.44 versus loss per share of EUR 2.26 .,POSITIVE,POSITIVE,0.5432,0.4568,True
+479,18 January 2010 - Finnish IT consultancy Trainers ' House Oyj HEL : TRH1V said last Friday it resolved to issue a EUR5m hybrid bond to domestic investors in a bid to strengthen its capital structure .,POSITIVE,POSITIVE,0.6734,0.3266,True
+722,"The broker has initiated both Palfinger AG and Konecranes OYJ with ` buy ' recommendations , with 51 and 42 eur price targets respectively .",POSITIVE,POSITIVE,0.7172,0.2828,True
+1647,"Agricultural newspaper Maaseudun Tulevaisuus had 318,000 readers , representing a decrease of 6 % .",NEGATIVE,NEGATIVE,0.4186,0.5814,True
+1098,"`` In the newly formed company YIT Stavo the local contact network , expertise and market know how of Euro Stavokonsult will be combined with YIT 's housing concept , '' said Juha Kostiainen , Yit 's Vice President , Corporate Communications and Business Development .",POSITIVE,POSITIVE,0.7586,0.2414,True
+61,"Rinkuskiai raised the sales by 18.1 percent , to 1.37 million liters , while the sales of Kauno Alus grew by 14.3 percent , to 960,000 liters .",POSITIVE,POSITIVE,0.7315,0.2685,True
+1300,"As part of the reorganisation measures that will take place in spring 2006 , Tamglass Finton will start personnel negotiations that will affect its entire staff of 33 .",NEGATIVE,NEGATIVE,0.409,0.591,True
+519,Cramo slipped to a pretax loss of EUR 6.7 million from a pretax profit of EUR 58.9 million .,NEGATIVE,NEGATIVE,0.3716,0.6284,True
+43,Sales increased due to growing market rates and increased operations .,POSITIVE,POSITIVE,0.7197,0.2803,True
+1196,Rapala said it estimates it will make savings of 1-2 mln eur a year by centralising its French operations at one site .,POSITIVE,POSITIVE,0.6923,0.3077,True
+1177,"Last month , Outokumpu sold more than 80 percent of its technology unit , Outokumpu Technology Oyj , to further its strategic goal of becoming the world 's largest stainless steel maker .",POSITIVE,POSITIVE,0.7281,0.2719,True
+791,Productional situation has now improved .,POSITIVE,POSITIVE,0.6231,0.3769,True
+465,LONDON MarketWatch -- Nokia nok said it 's won a five-year services contract to run Hutchison Essar 's network operations in nine locations in India .,POSITIVE,POSITIVE,0.7935,0.2065,True
+1272,Profit for the period was EUR 15.6 mn compared to EUR 14.1 mn in 2007 .,POSITIVE,NEGATIVE,0.3055,0.6945,False
+1774,"Budapest , August 10 MTI - Finnish electronics maker Elcoteq will lay off 700 workers at its plants in Pecs S Hungary at the end of September because of falling orders , communications director for Elcoteq 's local unit , Zoltan Krippl told MTI on Monday .",NEGATIVE,NEGATIVE,0.2629,0.7371,True
+184,"Svyturys-Utenos Alus , which is controlled by the Nordic group Baltic Beverages Holding ( BBH ) , posted a 4.7-per-cent growth in beer sales for January-May to 46.22 million litres .",POSITIVE,POSITIVE,0.6385,0.3615,True
+1097,"Talentum expects that the net sales of its core business will increase in 2008 , compared to 2007 .",POSITIVE,POSITIVE,0.6039,0.3961,True
+1091,"Markets had been expecting a poor performance , and the company 's stock was up 6 percent at  x20ac 23.89 US$ 33.84 in early afternoon trading in Helsinki .",POSITIVE,NEGATIVE,0.4143,0.5857,False
+751,`` Demand for sports equipment was good in 2005 .,POSITIVE,POSITIVE,0.6706,0.3294,True
+726,The company also said that in Poland a profitability program has been launched at the Oborniki steel frame and sandwich panel plant .,POSITIVE,POSITIVE,0.5826,0.4174,True
+1310,The company said that it has started to investigate streamlining its operations in order to meet the tightening competition on the mobile phone charger market .,POSITIVE,POSITIVE,0.7165,0.2835,True
+555,"Earnings per share ( EPS ) amounted to EUR0 .98 , up from the loss of EUR0 .02 .",POSITIVE,NEGATIVE,0.4758,0.5242,False
+1503,"By cutting the number of plants , the group will trim fixed costs .",POSITIVE,NEGATIVE,0.436,0.564,False
+167,Finnish cutlery and hand tools maker Fiskars Oyj Abp ( HEL : FISAS ) said today its net profit rose to EUR 24.1 million ( USD 33.6 m ) in the third quarter of 2010 from EUR 17.9 million a year earlier .,POSITIVE,NEGATIVE,0.4822,0.5178,False
+393,Finnish lifting equipment maker Konecranes HEL : KCR1V said on 29 July 2009 it has raised its stake in Austrian manipulator maker ACS Konecranes to 80 % and bought German sector player Knight Europe .,POSITIVE,POSITIVE,0.7023,0.2977,True
+1081,More than a third of the original participants dropped out due to nausea and other side effects .,NEGATIVE,NEGATIVE,0.3018,0.6982,True
+1847,Profit for the period fell to EUR 1.6 mn from EUR 7.5 mn in January-September 2008 .,NEGATIVE,NEGATIVE,0.2113,0.7887,True
+458,"This truly takes efficiency to new heights , '' Mr. Metso adds .",POSITIVE,POSITIVE,0.6745,0.3255,True
+1676,"The long-standing partnership and commitment enable both parties to develop their respective operations , and ESL Shipping will also have the opportunity to update its fleet and improve its efficiency .",POSITIVE,POSITIVE,0.8033,0.1967,True
+1268,Operating profit totaled EUR 17.7 mn compared to EUR 17.6 mn in the corresponding period in 2007 .,POSITIVE,NEGATIVE,0.2879,0.7121,False
+1346,"Martela said plans to expand its recycled furniture business elsewhere in Finland , too .",POSITIVE,POSITIVE,0.6261,0.3739,True
+1952,"The OMX Helsinki index was down 0.34 pct at 8,256.02 on turnover of 813.191 mln eur .",NEGATIVE,NEGATIVE,0.257,0.743,True
+711,SKF 6 April 2010 - Alandsbanken has given a `` buy '' recommendation on Swedish industrial company SKF AB ( STO : SKF B ) with a share price target of SEK150 .,POSITIVE,POSITIVE,0.6778,0.3222,True
+1831,Net sales decreased to EUR 220.5 mn from EUR 470.0 mn in the corresponding period in 2009 .,NEGATIVE,NEGATIVE,0.2016,0.7984,True
+508,The loss for the third quarter of 2007 was EUR 0.3 mn smaller than the loss of the second quarter of 2007 .,POSITIVE,NEGATIVE,0.341,0.659,False
+1228,The sale will lead to a pretax capital gain of EUR 22 million for the Finnish company in 2011 .,POSITIVE,POSITIVE,0.6134,0.3866,True
+177,First quarter underlying operating profit rose to 41 mln eur from 33 mln a year earlier .,POSITIVE,POSITIVE,0.7264,0.2736,True
+233,Passenger volumes rose by 8.4 % in the accounting period .,POSITIVE,POSITIVE,0.6205,0.3795,True
+1539,It is a disappointment to see the plan folded .,NEGATIVE,POSITIVE,0.7275,0.2725,False
+775,"Exel Composites ' long-term growth prospects remain favourable , however .",POSITIVE,POSITIVE,0.637,0.363,True
+525,"Profit before taxes amounted to EUR 56.5 mn , down from EUR 232.9 mn a year ago .",NEGATIVE,NEGATIVE,0.1931,0.8069,True
+250,Sales of clothing developed best .,POSITIVE,POSITIVE,0.6301,0.3699,True
+47,"The company 's order book stood at 1.5 bln euro $ 2.2 bln on September 30 , 2007 , up by 24.2 pct on the year , with international orders amounting to 365 mln euro $ 534.3 mln .",POSITIVE,POSITIVE,0.6512,0.3488,True
+1086,The SeaWind that was en route from the Finnish port of Turku to Stockholm got stuck in ice already around 4 p.m. on Wednesday and the Regal Star 's journey from the Swedish port of Kapellskar to Paldiski in northwestern Estonia was cut short at 2 a.m. on Thursday .,NEGATIVE,NEGATIVE,0.3975,0.6025,True
+1495,"Cash flow from operations totalled EUR 7.4 mn , compared to a negative EUR 68.6 mn in the second quarter of 2008 .",POSITIVE,NEGATIVE,0.4041,0.5959,False
+1222,The ISO certification demonstrates that we are moving forward in our quality commitments to our customers . ',POSITIVE,POSITIVE,0.8016,0.1984,True
+363,"To our members and partners , the use of IT will mostly be apparent in the increased efficiency of the results service , '' observes Perttu Puro from Tradeka .",POSITIVE,POSITIVE,0.7534,0.2466,True
+1116,Net sales revenue per passenger is expected to increase .,POSITIVE,POSITIVE,0.8024,0.1976,True
+1247,"4 February 2011 - Finnish broadband data communication systems provider Teleste Oyj HEL : TLT1V said Wednesday its net profit rocketed to EUR4 .8 m in 2010 from EUR416 ,000 in 2009 and it lifted its dividend proposal .",POSITIVE,POSITIVE,0.6893,0.3107,True
+409,"Earnings per share ( EPS ) for the first quarter 2007 amounted to EUR0 .07 , up from EUR0 .04 .",POSITIVE,POSITIVE,0.51,0.49,True
+28,"The Brazilian unit of Finnish security solutions provider F-Secure signed up 1,500 new clients last year , online news source Reseller Web quoted the division 's commercial director , Vladimir Brand+úo , as saying .",POSITIVE,POSITIVE,0.7093,0.2907,True
+446,"We succeeded in increasing our market share of sold apartment '' , comments Mr Kari Kauniskangas , Head of YIT International Construction Services .",POSITIVE,POSITIVE,0.7485,0.2515,True
+1454,The company reported today an operating loss of EUR0 .1 m on net sales of EUR4 .5 m for the first quarter 2008 .,NEGATIVE,NEGATIVE,0.311,0.689,True
+705,Pretax profit jumped to EUR 21.9 million from EUR 3.1 million .,POSITIVE,POSITIVE,0.6546,0.3454,True
+1566,"In a media advisory , the NTSB said that after subsequent testing , `` the train detection system intermittently failed . ''",NEGATIVE,NEGATIVE,0.4595,0.5405,True
+1209,The actions are expected to deliver annual cost savings of some EUR15-20m .,POSITIVE,POSITIVE,0.7581,0.2419,True
+1739,"In the first half of 2008 , the Bank 's operating profit fell to EUR 11.8 mn from EUR 18.9 mn , while net interest income increased to EUR 20.9 mn from EUR 18.8 mn in the first half of 2007 .",NEGATIVE,NEGATIVE,0.2684,0.7316,True
+1163,in Q1 2010 18 May 2010 - Finnish electrical components maker Salcomp Oy ( HEL : SAL1V ) said today it turned to a net profit of EUR1 .6 m in the first quarter of 2010 versus a loss of EUR2m in the corresponding period last year .,POSITIVE,NEGATIVE,0.4777,0.5223,False
+1284,"The fair value of investment properties totalled EUR 2,299.9 mn , compared to EUR 2,229.5 mn in the corresponding period in 2009 .",POSITIVE,NEGATIVE,0.4501,0.5499,False
+1848,"Profit for the period totalled EUR 0.8 mn , down from EUR 1.1 mn in the corresponding period in 2008 .",NEGATIVE,NEGATIVE,0.1206,0.8794,True
+981,EuroChem CFO Andrey Ilyin said : `` This facility marks another important step for EuroChem in securing the long-term financing necessary for our potash and other strategic projects '' .,POSITIVE,POSITIVE,0.7947,0.2053,True
+661,Cash flow from operating activities is estimated to be positive .,POSITIVE,POSITIVE,0.608,0.392,True
+1732,"The result will also be burdened by increased fixed costs associated with operations in China , and restructuring costs in Japan .",NEGATIVE,POSITIVE,0.6496,0.3504,False
+1443,"Operating loss totalled EUR 4.0 mn , compared to a profit of EUR 8.6 mn in the second quarter of 2008 .",NEGATIVE,NEGATIVE,0.1451,0.8549,True
+856,Atria Group is a leading Scandinavian meat products group .,POSITIVE,POSITIVE,0.7284,0.2716,True
+1179,"MADISON , Wis. , Feb. 6 - PRNewswire - -- Fiskars announces that the United States Patent and Trademark Office has granted a trademark registration for the color orange on its iconic scissor handles .",POSITIVE,POSITIVE,0.5404,0.4596,True
+821,Uponor improved its performance in spite of the decrease in residential construction in the US .,POSITIVE,POSITIVE,0.5133,0.4867,True
+91,"Net sales rose by 25.5 % year-on-year to EUR59 .6 m , as the number of chargers delivered went up by 41 % to 65.9 million pieces .",POSITIVE,POSITIVE,0.6956,0.3044,True
+535,"Profit after taxes for the period was up to EUR0 .9 m , from EUR0 .01 m last year .",POSITIVE,POSITIVE,0.5329,0.4671,True
+1579,Border Guard Service has banned the mooring of the company car-shipping ferry on its test travel at the railroad-car terminal of the Russian port as the border checkpoint is not yet ready .,NEGATIVE,POSITIVE,0.5321,0.4679,False
+1695,"Rory Fitzgerald , general manager , operations , Bristol Port , said : `` With the use of low maintenance technology we can save up to 30 per cent on servicing , plus the load sensing hydraulics can save us an extra 15 to 30 per cent on fuel consumption . ''",POSITIVE,POSITIVE,0.6658,0.3342,True
+105,"The circuit 's overall production rate on a weekly basis is now in excess of an average of 40,000 tonnes per day , with volumes in excess of 50,000 tonnes per day being reached on individual days .",POSITIVE,POSITIVE,0.5842,0.4158,True
+835,"The report provides a comprehensive insight into the company , including business structure and operations , executive biographies and key competitors .",POSITIVE,POSITIVE,0.7289,0.2711,True
+224,Operating profit rose to EUR2 .4 m from EUR1 .6 m year earlier .,POSITIVE,POSITIVE,0.7582,0.2418,True
+203,"( ADP News ) - Oct 29 , 2008 - Finnish lifting equipment maker Konecranes Oyj ( OMX : KCR1V ) said today that its net profit rose to EUR 116.6 million ( USD 149.1 m ) in the first nine months of 2008 from EUR 73.6 million for the s",POSITIVE,POSITIVE,0.6654,0.3346,True
+713,"Speaking to just-drinks today , a spokesperson for Olvi said : `` We have performed very well in all four countries we operate in - namely , Finland , Estonia , Latvia and Lithuania . ''",POSITIVE,POSITIVE,0.7505,0.2495,True
+93,"Nokia also noted the average selling price of handsets declined during the period , though its mobile phone profit margin rose to more than 22 percent from 13 percent in the year-ago quarter .",POSITIVE,POSITIVE,0.6412,0.3588,True
+1207,"The 50-50 joint venture , to be called Nokia Siemens Networks , will be comprised of Nokia 's network business group and Siemens ' carrier-related operations , creating estimated synergies of 1.5 billion euros ( $ 1.9 billion ) by 2010 , Nokia said .",POSITIVE,POSITIVE,0.7084,0.2916,True
+392,Estonia 's beer market overall grew three percent last year to 130 million liters .,POSITIVE,POSITIVE,0.6771,0.3229,True
+1393,The company will use the assets for strengthening its balance sheet and financial position .,POSITIVE,POSITIVE,0.7454,0.2546,True
+756,"`` This contract demonstrates our ability to apply our minerals and metals technologies in adjacent industries , such as oil shale processing .",POSITIVE,POSITIVE,0.7567,0.2433,True
+682,"However , Simdax will remain available in the markets where it already has been approved as it has marketing authorisations or submitted applications in more than 40 countries , Orion added .",POSITIVE,NEGATIVE,0.486,0.514,False
+339,"The company is now intensifying its smelter operations and increasing its annual production capacity to 230,000 tonnes of copper .",POSITIVE,POSITIVE,0.7678,0.2322,True
+1783,"Sampo Bank 's market share of lending was 13.6 % , down from 14.4 % in the first quarter of 2008 .",NEGATIVE,NEGATIVE,0.2193,0.7807,True
+358,"The upgrade is intended to raise the network capacity from 450 MHz to 630 MHz in several cities , enabling bi-directional services for digital television as well as broadband data .",POSITIVE,POSITIVE,0.7677,0.2323,True
+1931,"Nokia 's share price fell less than one percent to 18.70 euros ( $ 25.41 ) in Helsinki , while Siemens shares fell 1.02 percent to 90.19 euros ( $ 122.57 ) in Frankfurt .",NEGATIVE,NEGATIVE,0.354,0.646,True
+1762,"Finnish construction company YIT is reducing the number of start-ups of market-financed residential units in 2007 to about 2,300 from the previously announced 2,700 .",NEGATIVE,NEGATIVE,0.4625,0.5375,True
+1425,Expense ratio was 102.6 % compared to 92.9 % in the corresponding period in 2005 .,NEGATIVE,NEGATIVE,0.4109,0.5891,True
+1535,In addition the production personnel of the Sport Division have been given a temporary lay-off warning .,NEGATIVE,NEGATIVE,0.1718,0.8282,True
+1804,Consolidated pretax profit decreased by 69.2 % to EUR 41.0 mn from EUR 133.1 mn in 2007 .,NEGATIVE,NEGATIVE,0.261,0.739,True
+1344,"( ADP News ) - Nov 3 , 2008 - Finnish cargo handling systems and services company Cargotec Oyj ( OMX : CGCBV ) said today that it acquired 80 % stakes in Italian service companies CVS Technoports Srl and CVS Service Srl from Italian handli",POSITIVE,POSITIVE,0.6557,0.3443,True
+1350,New product launches in Finland will more than double from 2005 .,POSITIVE,POSITIVE,0.584,0.416,True
+1011,"Lee & Man Paper and Metso have a long and prosperous co-operation , a good example of which are the Changshu and Hongmei kraftliner machines delivered earlier .",POSITIVE,POSITIVE,0.6529,0.3471,True
+118,Finnish Aldata Solution has signed a contract of supply its G.O.L.D. system to two French retail chains .,POSITIVE,POSITIVE,0.8357,0.1643,True
+1164,"In the end of 2006 , the number of outlets will rise to 60-70 .",POSITIVE,POSITIVE,0.5269,0.4731,True
+1723,"Vanhanen said the strike would be `` extremely damaging '' as some 1,300 participants and reporters begin to arrive in Finland for the one-day EU summit with Russian President Vladimir Putin in Lahti , about 100 kilometers ( 60 miles ) north of Helsinki .",NEGATIVE,NEGATIVE,0.4498,0.5502,True
+864,"Furthermore , our fully electrically driven cranes are environmentally friendly .",POSITIVE,POSITIVE,0.6851,0.3149,True
+1288,This assignment strengthens Poyry 's position as an international provider of engineering and project services to the chemical process industry .,POSITIVE,POSITIVE,0.7879,0.2121,True
+510,"According to Sepp+ñnen , the new technology UMTS900 solution network building costs are by one-third lower than that of the building of 3.5 G networks , operating at 2,100 MHz frequency .",POSITIVE,NEGATIVE,0.4607,0.5393,False
+1258,Finnish silicon wafers manufacturer Okmetic Oyj said it swung to a net profit of 4.9 mln euro $ 6.3 mln in the first nine months of 2006 from a net loss of 1.8 mln euro $ 2.3 mln a year earlier .,POSITIVE,NEGATIVE,0.4839,0.5161,False
+348,"The growth in the activeness of Talentum 's customers , which started at the end of 2009 , continued during the reporting period , the company stated .",POSITIVE,POSITIVE,0.541,0.459,True
+1235,Under the contract Cramo Sverige and its subcontractor Brinkab AB will provide all scaffolding installations at LKAB 's new pellets plant in Kiruna in northern Sweden .,POSITIVE,POSITIVE,0.7594,0.2406,True
+405,"The subscriptions increase Cargotec 's share capital by 36,780 euros .",POSITIVE,POSITIVE,0.6823,0.3177,True
+1037,"It combines a perfect price performance with sophisticated management facilities , the company said .",POSITIVE,POSITIVE,0.6464,0.3536,True
+920,The aim is to convert the plants into flexible manufacturers of new and technologically demanding products .,POSITIVE,POSITIVE,0.7542,0.2458,True
+1302,"Finnair expands : Finnair plans to add more flights on routes to Hong Kong , India and Russia .",POSITIVE,POSITIVE,0.6426,0.3574,True
+804,The EPS improved to EUR0 .38 from EUR0 .27 .,POSITIVE,POSITIVE,0.5874,0.4126,True
+83,Finnish and Swedish construction markets are still experiencing an estimated 4 % annual growth in 2008 .,POSITIVE,POSITIVE,0.705,0.295,True
+56,"At first the contract envisaged the construction of three ferryboats with an option for two more units , further confirmed at a total value of 500 mln euro ( $ 645.8 mln ) .",POSITIVE,POSITIVE,0.6518,0.3482,True
+1876,"In January-November 2009 , the group 's sales totalled EUR 7,801.7 mn , which was a drop of 12.6 % from the same period of 2008 .",NEGATIVE,NEGATIVE,0.3652,0.6348,True
+1861,The sales of the Tiimari segment fell by 4.0 % year-on-year to EUR3 .3 m in June 2010 .,NEGATIVE,NEGATIVE,0.4644,0.5356,True
+1093,"According to Finnish insurance companies Tapiola , Local Insurance Group ( L+ñhivakuutus ) , and Pohjola the two fierce storms at the end of July and in the beginning of August 2010 that felled trees around Finland have speeded up sales of forest insurance .",POSITIVE,POSITIVE,0.563,0.437,True
+368,Finnish business software group AffectoGenimap Oyj said it had signed an agreement to acquire all the shares in Swedish sector company Intellibis Ab for 12 mln euro ( $ 15.8 mln ) on a debt-free basis .,POSITIVE,POSITIVE,0.6983,0.3017,True
+166,"Finland-based Elcoteq SE , a privately held provider of electronics manufacturing services to communications companies , said Thursday it signed a long-term manufacturing supply deal with communications equipment company Andrew Corp. .",POSITIVE,POSITIVE,0.7572,0.2428,True
+484,We look forward to helping the company develop its operational services and further digitalize its services for its customers . '',POSITIVE,POSITIVE,0.8594,0.1406,True
+138,"Both operating profit and net sales for the 12-month period increased , respectively from EUR20 .8 m and EUR177 .7 m , as compared to the financial year 2004 .",POSITIVE,POSITIVE,0.7185,0.2815,True
+1922,"According to the company , in addition to normal seasonal fluctuation the market situation has weakened during autumn 2008 .",NEGATIVE,POSITIVE,0.5359,0.4641,False
+868,"In the Homeware area , Fiskars provides leading branded products for home , kitchen , and interior design .",POSITIVE,POSITIVE,0.7553,0.2447,True
+1522,Applying for summer work is seen as laborious and stressful .,NEGATIVE,POSITIVE,0.7287,0.2713,False
+1509,"Outokumpu 's steel mill in Tornio , in Finland , is the suspected source .",NEGATIVE,POSITIVE,0.5565,0.4435,False
+1479,"The poorest index figure was given to Finnish power company Fortum , 4.5 .",NEGATIVE,POSITIVE,0.5965,0.4035,False
+832,"Technopolis and the St. Petersburg government signed a cooperation memorandum in October 2005 to set up a techno-park in the Neudorf production zone in the village of Strelny , in the St. Petersburg suburbs .",POSITIVE,POSITIVE,0.6732,0.3268,True
+268,The increase in capital stock has been registered in the Finnish Trade Register on 20 November 2006 .,POSITIVE,POSITIVE,0.5754,0.4246,True
+455,The cooperation will double The Switch 's converter capacity .,POSITIVE,POSITIVE,0.7267,0.2733,True
+1281,"The company 's net profit amounted to EE 55.5 mn , which was 36 % more than in 2004 .",POSITIVE,NEGATIVE,0.4068,0.5932,False
+719,The acquisition will have an immediate positive impact on Aspocomp 's financial result .,POSITIVE,POSITIVE,0.6387,0.3613,True
+919,Tekla will implement the renewal in software versions which will be introduced in spring 2011 .,POSITIVE,POSITIVE,0.6609,0.3391,True
+98,"Operating profit was EUR 24.5 mn , up from EUR 23.0 mn .",POSITIVE,POSITIVE,0.7587,0.2413,True
+843,"`` Our decision and resolve on MeeGo is only stronger , '' she continued .",POSITIVE,POSITIVE,0.6983,0.3017,True
+360,"Separately , YIT Corporation and Austrian firm E AG last week signed an agreement on the sale of E 's building system service business in Germany , Austria , Poland , the Czech Republic , Hungary and Romania for EUR 55 mln .",POSITIVE,POSITIVE,0.7733,0.2267,True
+1710,"As a result , the Russia 's import restrictions on Finnish dairy companies will be canceled on 6 August 2010 .",POSITIVE,NEGATIVE,0.4037,0.5963,False
+1964,"Operating profit fell to EUR 35.4 mn from EUR 68.8 mn in 2007 , including vessel sales gain of EUR 12.3 mn .",NEGATIVE,NEGATIVE,0.4178,0.5822,True
+1640,Vaisala 's net profit for the third quarter of 2007 dropped to 3.0 mln euro ( $ 4.3 mln ) from 6.8 mln euro ( $ 9.8 mln ) for the same period of 2006 .,NEGATIVE,NEGATIVE,0.3702,0.6298,True
+1245,28 October 2010 - Finnish wood products technology supplier Raute Oyj HEL : RUTAV said today it swung to a net profit of EUR3m for the first nine months of 2010 versus a net loss of EUR5 .2 m for the same period a year earlier .,POSITIVE,POSITIVE,0.5338,0.4662,True
+1494,"Cash flow from operations totalled EUR 2.71 mn , compared to a negative EUR 0.83 mn in the corresponding period in 2008 .",POSITIVE,NEGATIVE,0.3905,0.6095,False
+1384,"In the autumn , it plans to expand service to St. Petersburg and Moscow and launch service to Yekaterinburg , Russia , flying there three times a week .",POSITIVE,POSITIVE,0.7606,0.2394,True
+78,Biohit already services many current Genesis customers and the customer base is expected to expand as a result of this agreement .,POSITIVE,POSITIVE,0.6824,0.3176,True
+1586,"Food sales totalled EUR 323.5 mn in October 2009 , representing a decrease of 5.5 % from October 2008 .",NEGATIVE,NEGATIVE,0.326,0.674,True
+671,Finnish handling systems company Cargotec Oyj ( HEL : CGCBV ) said today that it won a EUR 13 million ( USD 16.6 m ) contract to deliver MacGregor hatch covers for ships ordered by Norwegian shipowner Grieg Shipping .,POSITIVE,POSITIVE,0.7032,0.2968,True
+736,"The original name Componenta +àm+Ñl , as a subsidiary of the Finnish Componenta Group , has been changed to +àm+Ñl Components and the company has seen a 63 % growth in Q1 2010 , in comparison to Q1 2009 .",POSITIVE,POSITIVE,0.5743,0.4257,True
+676,"Forestries were also higher , driven by yesterday 's bullish analyst comment on Stora Enso in Dagens Industri , dealers said .",POSITIVE,POSITIVE,0.5702,0.4298,True
+1417,"Acando AB ( ACANB SS ) fell 8.9 percent to 13.35 kronor , the lowest close since Dec. 11 .",NEGATIVE,NEGATIVE,0.3871,0.6129,True
+1923,"Changes in the market situation and tougher price competition have substantially reduced demand for bread packaging manufactured at the Kauhava plant , according to the company .",NEGATIVE,NEGATIVE,0.4225,0.5775,True
+1372,A total of 140 jobs will be reduced at the Raahe Steel Works .,NEGATIVE,NEGATIVE,0.3395,0.6605,True
+703,Panostaja Oyj s ( Panostaja ) Board of Directors decided on 16 December 2010 on a new long-term incentive and commitment plan for members of the management team .,POSITIVE,POSITIVE,0.7207,0.2793,True
+872,"More than 200 volunteers from Fiskars , the garden tool company , Home Depot ( NYSE : HD ) , the city of Baltimore and the neighborhood are working right now to create a garden sanctuary - in a single day .",POSITIVE,POSITIVE,0.5893,0.4107,True
+107,The Department Store Division reported an increase in sales of 4 per cent .,POSITIVE,POSITIVE,0.6534,0.3466,True
+1340,"Jobs will not be transferred from Finland , however .",POSITIVE,NEGATIVE,0.3055,0.6945,False
+911,"Handelsbanken ranked before Local Cooperative Banks and Aktia in customer loyalty this time too , however .",POSITIVE,NEGATIVE,0.4679,0.5321,False
+1924,"In the building and home improvement trade , sales decreased by 6.3 % , totalling EUR 154.1 mn .",NEGATIVE,NEGATIVE,0.2567,0.7433,True
+1076,"18 May 2010 - Finnish electronics producer Elcoteq SE HEL : ELQAV said today that it has signed an extensive cooperation agreement on industrialisation , manufacturing , distribution and after-market services for mobile phones with Japan 's Sharp TYO : 6753 .",POSITIVE,POSITIVE,0.7922,0.2078,True
+961,The company will enhance the GPRS capability in the existing 12 IDEA telecom service areas and add 10 more service areas to its network .,POSITIVE,POSITIVE,0.767,0.233,True
+390,Componenta increased its stake in Turkish steel company Doktas Dokumculuk Ticaret ve Sanayi A.S. to 92.6 pct stake in March 2007 .,POSITIVE,POSITIVE,0.6647,0.3353,True
+526,"Profit before taxes decreased by 9 % to EUR 187.8 mn in the first nine months of 2008 , compared to EUR 207.1 mn a year earlier .",NEGATIVE,NEGATIVE,0.1588,0.8412,True
+1327,"Dubbed Nokia Money Solutions , company officials say the initiative would seek to bridge the gap between the banked and unbanked in developing countries .",POSITIVE,POSITIVE,0.5733,0.4267,True
+337,"Strongest growth was seen in the new markets in Russia , the Czech Republic , and Slovakia .",POSITIVE,POSITIVE,0.7958,0.2042,True
+154,"comparable operating profit totaled EUR 854mn , up from EUR 730mn in 2004 .",POSITIVE,POSITIVE,0.6804,0.3196,True
+1741,"Operating profit for the 12-month period decreased from EUR17 .9 m while net sales increased from EUR58 .3 m , as compared to 2007 .",NEGATIVE,NEGATIVE,0.2586,0.7414,True
+1525,As a result of these negotiations the company has decided to make 45 people redundant on financial and production grounds .,NEGATIVE,NEGATIVE,0.3097,0.6903,True
+133,Also Lemmink+ñinen 's profit for accounting period went up to EUR 3.1 mn from EUR -24.5 mn a year ago .,POSITIVE,POSITIVE,0.5989,0.4011,True
+1655,Stora Enso 's target has been cut to EUR 4.85 from EUR 5.55 and Holmen 's target -- to SEK 135 from SEK 150 .,NEGATIVE,POSITIVE,0.5188,0.4812,False
+493,"Finnish steel maker Rautaruukki Oyj ( HEL : RTRKS ) , or Ruukki , said today its net loss contracted to EUR 49 million ( USD 68.2 m ) for the first nine months of 2010 from EUR 229 million for the same period a year ago .",POSITIVE,POSITIVE,0.5698,0.4302,True
+754,`` The lowering of prices by us and by our competitors shows that the real estate market has stabilised and returned into balance and apartments are acquiring a fair price in the eyes of our clients .,POSITIVE,POSITIVE,0.5514,0.4486,True
+1160,"In 2007 , Marimekko has also opened concept stores in Yokohama and Nagoya , central Japan , in Silver Spring in metropolitan Washington DC , USA , in Graz , central Austria , and in Aalborg , northern Denmark .",POSITIVE,POSITIVE,0.6576,0.3424,True
+1580,`` Those uncertainties cloud the long-term outlook . '',NEGATIVE,POSITIVE,0.6368,0.3632,False
+1709,stores 16 March 2010 - Finnish stationery and gift retailer Tiimari HEL : TII1V said yesterday that it will cut a total of 28 jobs in its units Tiimari Retail Ltd and Gallerix Finland Ltd as a result of the closure of shops .,NEGATIVE,NEGATIVE,0.3944,0.6056,True
+548,"Global sports equipment maker Amer Sports Corp. , whose brands include Atomic , Salomon and Wilson , saw a 64 percent increase in third-quarter net profit to EURO 47.4 million $ 65 million on strong sales and cost cuts .",POSITIVE,POSITIVE,0.7163,0.2837,True
+1448,"Pretax loss totalled EUR 49.9 mn , compared to a loss of EUR 15.4 mn in the corresponding period in 2008 .",NEGATIVE,NEGATIVE,0.2747,0.7253,True
+81,Clothing chain Sepp+ñl+ñ 's net sales increased by 7.0 % to EUR 30.8 mn .,POSITIVE,POSITIVE,0.737,0.263,True
+1113,"Instead , Elcoteq has signed a non-binding Letter of Intent with another Asian strategic investor .",POSITIVE,POSITIVE,0.7113,0.2887,True
+111,"The transaction doubles Tecnomens workforse , and adds a fourth to their net sales .",POSITIVE,POSITIVE,0.6861,0.3139,True
+1845,"Pretax profit totaled EUR 9.0 mn , down from EUR 36.3 mn in 2007 .",NEGATIVE,NEGATIVE,0.147,0.853,True
+1577,"We have also cut our price projections for paper and packaging , '' an analyst with Goldman Sachs said on a note on Monday .",NEGATIVE,POSITIVE,0.7502,0.2498,False
+929,This is the first time Finnair has been awarded an agreement with the UK government .,POSITIVE,POSITIVE,0.8063,0.1937,True
+464,"LONDON AFX - Shares in Rautaruukki Corp have been upgraded to ` hold ' from ` sell ' by ABN Amro , with the price target raised to 25.75 eur from 14.5 , said dealers .",POSITIVE,POSITIVE,0.5264,0.4736,True
+1141,Acquisitions have been made and businesses have been well integrated .,POSITIVE,POSITIVE,0.5683,0.4317,True
+1365,"The number of permanent reductions of clerical workers is 22 employees , of which 19 in Finland .",NEGATIVE,NEGATIVE,0.2593,0.7407,True
+239,"Pre-tax profit totaled EUR 397.4 mn , up from EUR 164.7 mn .",POSITIVE,POSITIVE,0.7883,0.2117,True
+303,"GeoSentric Oyj s GeoSolutions Business Unit GyPSii , the mobile digital lifestyle application and geo-mobility social networking platform , has signed an agreement with Nanjing MyNet to make the GyPSii mobile social networking platform available to customers of China Mobile .",POSITIVE,POSITIVE,0.8575,0.1425,True
+1605,"Finnair 's passenger load factor , which measures the number of sold seats as a share of all available seats , dropped by 1.3 percentage points to 76.7 % in September .",NEGATIVE,NEGATIVE,0.4218,0.5782,True
+1817,Finnish media company Talentum Oyj 's net profit decreased to 2.5 mln euro ( $ 4.0 mln ) for the first quarter of 2008 from 3.0 mln euro ( $ 4.7 mln ) for the same period of 2007 .,NEGATIVE,NEGATIVE,0.2216,0.7784,True
+1937,Finnish meat company Atria can no longer promise a sufficient amount of domestic beef to its customers .,NEGATIVE,POSITIVE,0.6837,0.3163,False
+1649,Cash flow from operations in January-December 2008 was a negative EUR 18.1 mn compared to EUR 39.0 mn in the corresponding period in 2007 .,NEGATIVE,NEGATIVE,0.3576,0.6424,True
+1598,"As capacity was cut with 1.4 % , the passenger load factor was down 7.8 percentage points .",NEGATIVE,NEGATIVE,0.3439,0.6561,True
+1637,The recent troubles simply make NETeller cheaper .,NEGATIVE,POSITIVE,0.5017,0.4983,False
+704,"Pioneer Library System was one of 127 libraries , municipalities , arts , culture and higher education and science organizations to have been awarded grants to participate in The Big Read , the largest federal reading program in U.S. history .",POSITIVE,POSITIVE,0.6896,0.3104,True
+1239,"Brazilian non-profit interbank Camara Interbancaria de Pagamentos CIP has acquired solutions from US business integration solutions provider Sterling Commerce , the latter company said in a statement .",POSITIVE,POSITIVE,0.6896,0.3104,True
+1731,Small investors have voiced fears that the shares will end up with risk investors .,NEGATIVE,POSITIVE,0.5952,0.4048,False
+1257,"Finnish pulp and paper machinery maker Vaahto Group Oyj swung to a 1.1 mln euro $ 1.4 mln net profit in the fiscal 2005-06 , ended August 31 , 2006 , from a 249,000 euro $ 319,000 net loss in the fiscal 2004-05 .",POSITIVE,NEGATIVE,0.495,0.505,False
+377,"The company also said on November 16 , 2006 its Real Estate Fund I Ky signed an agreement with Finnish window maker Fenestra Oy to build a window plant in Forssa , southern Finland .",POSITIVE,POSITIVE,0.8099,0.1901,True
+1212,The company also expects to sell its products in other Russian region .,POSITIVE,POSITIVE,0.7546,0.2454,True
+63,Under this agreement Biohit becomes a focus supplier of pipettors and disposable pipettor tips to VWR customers throughout Europe .,POSITIVE,POSITIVE,0.7765,0.2235,True
+1216,The company turned to earnings per share ( EPS ) of EUR 0.03 versus loss per share of EUR 0.01 .,POSITIVE,POSITIVE,0.5204,0.4796,True
+1773,"In Finland , the Bank of +àland reports its operating profit fell to EUR 6.1 mn in the second quarter of 2008 from EUR 7.5 mn in the second quarter of 2007 .",NEGATIVE,NEGATIVE,0.2042,0.7958,True
+1189,"Operating loss was EUR 179mn , compared to a loss of EUR 188mn in the second quarter of 2009 .",POSITIVE,NEGATIVE,0.2248,0.7752,False
+350,The pretax profit of the group 's life insurance business increased to EUR 36 million from EUR 27 million .,POSITIVE,POSITIVE,0.6699,0.3301,True
+236,Pretax profit rose to EUR 0.6 mn from EUR 0.4 mn in the corresponding period in 2005 .,POSITIVE,POSITIVE,0.7357,0.2643,True
+773,"EBITDA for the year 2009 improved to EUR484m , as compared with EUR472m in 2008 .",POSITIVE,POSITIVE,0.5759,0.4241,True
+1382,"In banking , Sampo A was unchanged at 14.24 eur and Nordea rose 0.42 pct to 9.51 eur .",POSITIVE,POSITIVE,0.5693,0.4307,True
+1561,"`` There 's the issue of thieves stealing them from building sites , '' said Mr Smith .",NEGATIVE,POSITIVE,0.5376,0.4624,False
+1043,This bold spinning 360 red fabric design is set beautifully on Ercols Napoli sofa .,POSITIVE,POSITIVE,0.6846,0.3154,True
+103,Sanoma Magazines ' net sales are estimated to grow in 2006 .,POSITIVE,POSITIVE,0.689,0.311,True
+1380,"In addition , the company will reduce a maximum of ten jobs .",NEGATIVE,POSITIVE,0.5165,0.4835,False
+1883,Nokia s U.S. shares were 3.3 percent lower at $ 12.73 by 1750 GMT .,NEGATIVE,NEGATIVE,0.3828,0.6172,True
+1811,"Earnings per share ( EPS ) in the first half of 2007 amounted to EUR0 .29 , down from EUR0 .40 year ago .",NEGATIVE,NEGATIVE,0.1264,0.8736,True
+1791,"Finnish GeoSentric 's net sales decreased to EUR 939,000 in January-March 2009 .",NEGATIVE,NEGATIVE,0.2191,0.7809,True
+900,"`` The acquisition of Sampo Bank makes strategic sense for DB , '' says Lindsey Liddell , director of Fitch Ratings 's Financial Institutions Group .",POSITIVE,POSITIVE,0.7219,0.2781,True
+977,A memorandum of understanding on cooperation between the Finnish Global Chemical Company KEMIRA and Vietnam National Chemicals Group ( Vinachem ) was signed on this occasion .,POSITIVE,POSITIVE,0.6768,0.3232,True
+1006,HELSINKI AFX - KCI Konecranes said it has won an order for four hot metal ladle cranes from Indian steel producer Bhushan Steel and Strips Ltd. .,POSITIVE,POSITIVE,0.8113,0.1887,True
+1814,"Finnish financial software solutions developer BasWare Oyj said its net profit fell to 884,000 euro ( $ 1.2 mln ) for the first quarter of 2007 from 2.0 mln euro ( $ 2.7 mln ) a year earlier .",NEGATIVE,NEGATIVE,0.393,0.607,True
+281,"With the acquisition , the company will expand its offering to North , Central and South America , it said .",POSITIVE,POSITIVE,0.8222,0.1778,True
+1459,Finnish forest machinery manufacturer Ponsse has issued a profit warning .,NEGATIVE,NEGATIVE,0.3821,0.6179,True
+1102,Airbus has 100 firm orders for the A350 and 89 nonbinding commitments .,POSITIVE,POSITIVE,0.6815,0.3185,True
+1099,A & euro ; 4.8 million investment in 13.6 % of Lewa netted Deutsche Beteiligungs & euro ; 21 million .,POSITIVE,POSITIVE,0.5632,0.4368,True
+1264,"ADP News - Nov 6 , 2008 - Finnish retail software developer Aldata Solution Oyj OMX : ALD1V said today that it swung to a net profit of EUR 2.1 million USD 2.7 m for the first nine months of 2008 versus a net loss of EU",POSITIVE,NEGATIVE,0.4405,0.5595,False
+557,"Operating profit totalled EUR 0.4 mn , up from an operating loss of EUR 0.8 mn year-on-year .",POSITIVE,POSITIVE,0.6519,0.3481,True
+29,"The company 's net profit rose 11.4 % on the year to 82.2 million euros in 2005 on sales of 686.5 million euros , 13.8 % up on the year , the company said earlier .",POSITIVE,POSITIVE,0.6555,0.3445,True
+1144,Commencing the construction works of Pearl Plaza is a significant step in our Russian projects .,POSITIVE,POSITIVE,0.7838,0.2162,True
+1492,This transaction will also rationalize our pulp and paper industry related solutions .,POSITIVE,POSITIVE,0.7471,0.2529,True
+217,Operating profit rose to EUR 13.5 mn from EUR 9.7 mn in the corresponding period in 2006 .,POSITIVE,POSITIVE,0.7477,0.2523,True
+763,Finnish Cargotec has been awarded a significant order for a total of 292 Hiab loader cranes by BAE Systems in the US .,POSITIVE,POSITIVE,0.6858,0.3142,True
+1317,"Scanfil , a systems supplier and contract manufacturer to the communications sector , will start personnel negotiations in Oulu , in Finland , to lay off staff temporarily .",NEGATIVE,NEGATIVE,0.1647,0.8353,True
+1524,"As a result , 12 people will be made redundant and a total of 67 persons are laid off temporarily .",NEGATIVE,NEGATIVE,0.2294,0.7706,True
+1148,Efficiency programs totalling 100 million euros are under way in Finnair .,POSITIVE,POSITIVE,0.6017,0.3983,True
+86,"In Lithuania , operating profit rose to EUR 190,000 from EUR 70,000 in the corresponding period in 2005 .",POSITIVE,POSITIVE,0.7667,0.2333,True
+1840,Operating profit fell to EUR 38.1 mn from EUR 55.3 mn in 2007 .,NEGATIVE,NEGATIVE,0.212,0.788,True
+1832,Net sales decreased to EUR 91.6 mn from EUR 109mn in the corresponding period in 2005 .,NEGATIVE,NEGATIVE,0.248,0.752,True
+852,"According to the company , staff will be laid off temporarily when necessary .",NEGATIVE,NEGATIVE,0.2746,0.7254,True
+746,"Wartsila won the contract in October 2007 and the plant will be installed at Manturovo in the Kostroma region of Russia , about 600 km northeast of Moscow , Russia .",POSITIVE,POSITIVE,0.6062,0.3938,True
+879,"Overall , 50 percent of respondents were confident about their security when banking online .",POSITIVE,POSITIVE,0.5931,0.4069,True
+1278,"Tectia Corporation HEL : TEC1V , a provider of real-time security solutions , today announced that it has appointed LAN2LAN , a provider of IT services in the UK , to distribute its data security and manage file transfer software .",POSITIVE,POSITIVE,0.7242,0.2758,True

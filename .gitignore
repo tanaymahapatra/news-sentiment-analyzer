@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Model / Hugging Face cache
+.cache/
+huggingface/
+models/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs
+*.log
