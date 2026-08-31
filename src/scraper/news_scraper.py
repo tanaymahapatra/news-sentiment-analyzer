@@ -9,10 +9,14 @@ Raises a ScraperError subclass when extraction is not possible.
 from __future__ import annotations
 
 from dataclasses import dataclass
+import ipaddress
+import socket
+import time
 from typing import List, Optional
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 
 import requests
+import urllib3
 from bs4 import BeautifulSoup, Tag
 
 # --------------------------------------------------------------------------
@@ -20,6 +24,8 @@ from bs4 import BeautifulSoup, Tag
 # --------------------------------------------------------------------------
 
 DEFAULT_TIMEOUT = 15  # seconds
+MAX_HTML_BYTES = 2 * 1024 * 1024
+MAX_REDIRECTS = 5
 
 HEADERS = {
     "User-Agent": (
@@ -33,24 +39,44 @@ HEADERS = {
 
 # Tags that never contain article prose.
 NOISE_TAGS = (
-    "script", "style", "nav", "footer", "aside", "form", "noscript",
-    "header", "iframe", "svg", "button", "figcaption",
+    "script",
+    "style",
+    "nav",
+    "footer",
+    "aside",
+    "form",
+    "noscript",
+    "header",
+    "iframe",
+    "svg",
+    "button",
+    "figcaption",
 )
 
-MIN_PARAGRAPH_CHARS = 50    # shorter <p> tags are usually captions/menu items
-MAX_LINK_DENSITY = 0.35     # a <p> that is mostly links is navigation
-MIN_ARTICLE_CHARS = 300     # below this we assume extraction failed
+MIN_PARAGRAPH_CHARS = 50  # shorter <p> tags are usually captions/menu items
+MAX_LINK_DENSITY = 0.35  # a <p> that is mostly links is navigation
+MIN_ARTICLE_CHARS = 300  # below this we assume extraction failed
 
 BOILERPLATE_MARKERS = (
-    "sign up", "subscribe", "newsletter", "cookie", "advertisement",
-    "all rights reserved", "follow us", "share this", "read more",
-    "hide caption", "getty images", "toggle caption",
+    "sign up",
+    "subscribe",
+    "newsletter",
+    "cookie",
+    "advertisement",
+    "all rights reserved",
+    "follow us",
+    "share this",
+    "read more",
+    "hide caption",
+    "getty images",
+    "toggle caption",
 )
 
 
 # --------------------------------------------------------------------------
 # Errors
 # --------------------------------------------------------------------------
+
 
 class ScraperError(Exception):
     """Base error for this module."""
@@ -84,18 +110,27 @@ class Article:
 # Step 1: validate
 # --------------------------------------------------------------------------
 
+
 def validate_url(url: str) -> str:
     """Return a cleaned URL, or raise InvalidURLError."""
     if not isinstance(url, str) or not url.strip():
         raise InvalidURLError("URL is empty.")
 
     url = url.strip()
-    parsed = urlparse(url)
+    try:
+        parsed = urlparse(url)
+        port = parsed.port
+    except ValueError as exc:
+        raise InvalidURLError("Invalid URL or port.") from exc
 
     if parsed.scheme not in ("http", "https"):
         raise InvalidURLError("URL must start with http:// or https://")
-    if not parsed.netloc or "." not in parsed.netloc:
-        raise InvalidURLError(f"'{url}' does not contain a valid domain.")
+    if not parsed.hostname or "." not in parsed.hostname:
+        raise InvalidURLError("URL must contain a public domain or IPv4 address.")
+    if parsed.username is not None or parsed.password is not None:
+        raise InvalidURLError("URLs containing credentials are not supported.")
+    if port not in (None, 80, 443) or any(ord(char) < 32 for char in url):
+        raise InvalidURLError("Only standard HTTP/HTTPS article URLs are supported.")
 
     return url
 
@@ -104,40 +139,121 @@ def validate_url(url: str) -> str:
 # Step 2: download
 # --------------------------------------------------------------------------
 
-def fetch_html(url: str, timeout: int = DEFAULT_TIMEOUT) -> str:
-    """Download a page and return its HTML, or raise FetchError."""
+
+def _public_ipv4(hostname: str, port: int) -> str:
+    """Resolve once and return an approved address; never re-resolve on connect."""
     try:
-        response = requests.get(
-            url, headers=HEADERS, timeout=timeout, allow_redirects=True
+        addresses = socket.getaddrinfo(
+            hostname, port, socket.AF_INET, socket.SOCK_STREAM
         )
-        response.raise_for_status()
-    except requests.exceptions.Timeout:
-        raise FetchError(f"Request timed out after {timeout}s.")
-    except requests.exceptions.TooManyRedirects:
-        raise FetchError("Too many redirects; the site may be blocking scrapers.")
-    except requests.exceptions.ConnectionError:
-        raise FetchError("Could not connect. Check the URL or your network.")
-    except requests.exceptions.HTTPError:
-        code = response.status_code
-        if code in (401, 403):
-            raise FetchError(f"Access denied (HTTP {code}). This site blocks scrapers.")
-        if code == 404:
-            raise FetchError("Page not found (HTTP 404).")
-        raise FetchError(f"Server returned HTTP {code}.")
-    except requests.exceptions.RequestException as exc:
-        raise FetchError(f"Request failed: {exc}")
+    except socket.gaierror as exc:
+        raise FetchError("Could not resolve the article website.") from exc
+    ips = list(dict.fromkeys(item[4][0] for item in addresses))
+    if not ips or any(not ipaddress.ip_address(ip).is_global for ip in ips):
+        raise InvalidURLError(
+            "Only public websites are allowed; private server addresses are blocked."
+        )
+    return ips[0]
 
-    content_type = response.headers.get("Content-Type", "")
-    if "html" not in content_type.lower():
-        raise FetchError(f"Expected an HTML page but got '{content_type}'.")
 
-    response.encoding = response.encoding or response.apparent_encoding
-    return response.text
+def fetch_html(url: str, timeout: int = DEFAULT_TIMEOUT) -> str:
+    """Fetch bounded HTML from public IPv4 hosts, validating every redirect.
+
+    Connect to the validated numeric IP to prevent DNS rebinding, while keeping
+    the original Host header, TLS SNI and certificate hostname verification.
+    """
+    deadline = time.monotonic() + timeout * 2
+    for _ in range(MAX_REDIRECTS + 1):
+        url = validate_url(url)
+        parsed = urlparse(url)
+        hostname = parsed.hostname.encode("idna").decode("ascii")
+        port = parsed.port or (443 if parsed.scheme == "https" else 80)
+        ip = _public_ipv4(hostname, port)
+        remaining = deadline - time.monotonic()
+        if remaining <= 0:
+            raise FetchError("Article download timed out.")
+        options = {
+            "host": ip,
+            "port": port,
+            "timeout": urllib3.Timeout(
+                connect=min(timeout, remaining), read=min(timeout, remaining)
+            ),
+        }
+        if parsed.scheme == "https":
+            pool = urllib3.HTTPSConnectionPool(
+                **options,
+                server_hostname=hostname,
+                assert_hostname=hostname,
+                cert_reqs="CERT_REQUIRED",
+                ca_certs=requests.certs.where(),
+            )
+        else:
+            pool = urllib3.HTTPConnectionPool(**options)
+        headers = {
+            **HEADERS,
+            "Host": hostname + (f":{port}" if parsed.port else ""),
+            "Accept-Encoding": "identity",
+        }
+        target = parsed.path or "/"
+        if parsed.query:
+            target += "?" + parsed.query
+        response = None
+        try:
+            response = pool.urlopen(
+                "GET",
+                target,
+                headers=headers,
+                redirect=False,
+                retries=False,
+                preload_content=False,
+                assert_same_host=False,
+            )
+            if response.status in (301, 302, 303, 307, 308):
+                location = response.headers.get("Location")
+                if not location:
+                    raise FetchError("The website returned an invalid redirect.")
+                url = urljoin(url, location)
+                continue
+            if response.status >= 400:
+                raise FetchError(f"Server returned HTTP {response.status}.")
+            if "html" not in response.headers.get("Content-Type", "").lower():
+                raise FetchError("The URL did not return an HTML article.")
+            if (
+                response.headers.get("Content-Encoding", "identity").lower()
+                != "identity"
+            ):
+                raise FetchError(
+                    "The website requires an unsupported compressed response."
+                )
+            body = bytearray()
+            for chunk in response.stream(65536, decode_content=False):
+                body.extend(chunk)
+                if len(body) > MAX_HTML_BYTES:
+                    raise FetchError("Article page is too large (maximum 2 MB).")
+                if time.monotonic() > deadline:
+                    raise FetchError("Article download timed out.")
+            encoding = (
+                requests.utils.get_encoding_from_headers(response.headers) or "utf-8"
+            )
+            try:
+                return body.decode(encoding, errors="replace")
+            except LookupError:
+                return body.decode("utf-8", errors="replace")
+        except (urllib3.exceptions.HTTPError, OSError) as exc:
+            raise FetchError(
+                "Could not securely download the article. Check the URL or try another website."
+            ) from exc
+        finally:
+            if response is not None:
+                response.close()
+            pool.close()
+    raise FetchError("Too many redirects; the site may be blocking scrapers.")
 
 
 # --------------------------------------------------------------------------
 # Step 3: extract
 # --------------------------------------------------------------------------
+
 
 def _strip_noise(soup: BeautifulSoup) -> None:
     """Delete tags that never hold article prose (in place)."""
@@ -252,6 +368,7 @@ def extract_article(html: str, url: str) -> Article:
 # --------------------------------------------------------------------------
 # Public entry point
 # --------------------------------------------------------------------------
+
 
 def fetch_article(url: str, timeout: int = DEFAULT_TIMEOUT) -> Article:
     """Scrape a news article.
